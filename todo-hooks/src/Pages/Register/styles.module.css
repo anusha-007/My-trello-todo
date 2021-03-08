@@ -1,0 +1,20 @@
+form.user_form {
+    display: table;
+}
+
+.user_form{
+    margin:15px
+}
+
+div.user_form {
+    display: table-row;
+}
+
+.user_form label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+.user_form label{
+    padding-right: 10px;
+}

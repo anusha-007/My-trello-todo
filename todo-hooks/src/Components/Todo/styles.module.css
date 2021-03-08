@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todoHeader {
+    display: flex;
+    /* justify-content: center; */
+
+    /* border:  2px solid red; */
+}
+
+.todoHeader > div {
+    box-sizing: border-box;
+
+    margin: 0 20 20 20;
+    /* margin: 20px */
+}
+
+.leftBox div,
+.rightBox div,
+.midBox div {
+    /* border:  2px solid black; */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 20px 20px 0px;
+    /* margin:20px; */
+}
+
+/* .midBox {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.createTodo {
+    margin-left: 30px;
+    border: 1px solid green;
+}
+
+.createTodo > div {
+    margin-top: 10px;
+}
+
+.deleteImgIcon {
+    width: 15px;
+}
+
+.subTasksList {
+    border: 1px solid black;
+}
+.label {
+    text-decoration: line-through 2px green;
+
+    color: "red";
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todoCardContainer {
+    /* border:3px solid black;
+      max-width: 250px;
+      padding: 5px 15px 5px 15px;
+      margin-bottom:10px; */
+
+    width: 40ch;
+    height: 30ch;
+    background: whitesmoke;
+    border-radius: 3px;
+    overflow: auto;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 15px solid white;
+    opacity: 2;
+}
+.card:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
+
+.todoCardContainer > div {
+    margin: 5px;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+
+    /* border:3px solid red; */
+
+    width: 100%;
+}
+
+.status {
+    border: 3px solid black;
+    padding: 2px;
+}
+
+.date {
+    /* //text-align: right; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* border:3px solid green; */
+    text-align: right;
+    color: green;
+}
+
+.description {
+    border: 3px solid green;
+
+    max-width: 250px;
+    width: 100%;
+    /* word-wrap: none; */
+    overflow-wrap: break-word;
+}
+
+.mainWrapper {
+    border: 3px solid pink;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.todoCategory {
+    border: 1px solid orange;
+    /* padding: 20px; */
+}
+
+.todoCards {
+    padding: 20px;
+}
+
+.deleteButton {
+    color: red;
+    border: none;
+}
+
+.label {
+    text-decoration: line-through 2px green;
+
+    color: "red";
+}
